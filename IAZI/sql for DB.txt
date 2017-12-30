@@ -1,0 +1,42 @@
+-- phpMyAdmin SQL Dump
+-- version 3.4.7
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost
+-- Время создания: Май 29 2016 г., 16:19
+-- Версия сервера: 5.5.17
+-- Версия PHP: 5.3.8
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- База данных: `my_bd`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `packet`
+--
+
+CREATE TABLE IF NOT EXISTS `packet` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `start_time` varchar(15) NOT NULL,
+  `current_time` datetime NOT NULL,
+  `source` text NOT NULL,
+  `destination` text NOT NULL,
+  `protocol` varchar(10) NOT NULL,
+  `info` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

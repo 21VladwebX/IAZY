@@ -1,0 +1,12 @@
+	<!--script>
+
+ $(function(){
+	$('#submit').on('click', function() {
+		setTimeout(function() {	
+		<!-- 	<?php include_once 'php/tables.php'?> -->
+		 <!-- $('#tables').append(" <iframe src = 'php/tables.php' name = ''  width = '640' height = '430' 	frameborder = '0' scrolling = 'yes'>Что то пошло не так...</iframe>") -->				
+		$('#tables').load("<?php include 'php/tables.php';?>")
+		},10000);
+	});	
+});	
+	</script-->

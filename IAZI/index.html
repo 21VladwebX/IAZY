@@ -1,0 +1,22 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta http-equiv = "Content-type" type = "text/html" charset = "utf-8" /> 
+	<link rel = "stylesheet" type = "text/css" href = "css/css.css" />
+	<script src = "js/jquery-3.1.1.min.js"></script>
+	<script src = "js/1.js"></script>
+</head>
+<body>
+	<div id = "all">
+		<p>Эта информационная система для анализа сетевых пакетов.</p>
+		<form enctype = "multipart/form-data" action = "php/treatment.php" method = "post" id="mainForm">
+		   <p>
+				<input type = "file" name = "LogFile"/>
+				<input id = "submit" type = "submit" name = "upload" value = "Отправить"/>
+		   </p>
+		</form> 
+	</div>
+	<div id = "graph"></div>
+	<div id = "tables"></div>
+</body>
+</html>

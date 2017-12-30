@@ -1,0 +1,70 @@
+
+#all{
+	margin-left: 500px;
+}
+#submit{
+	background-color: #96e2ed;
+}
+
+#submit:hover{
+	background-color: #6b3cf9;
+	border-radius: 5px;
+	border: 2px solid silver;
+}
+
+img{
+	height: 400px;
+	width: 400px;
+	
+}
+#show{
+	background-color: #38cb34;
+}
+
+#show:hover{
+	background-color: #6b3cf9;
+	border-radius: 5px;
+	border: 2px solid silver;
+	
+}
+#show_t{
+	background-color: #31c2ce;
+	margin-left: 287px;
+}
+
+#show_t:hover{
+	background-color: #6b3cf9;
+	border-radius: 5px;
+	border: 2px solid silver;
+}
+#show_t:active {
+	background-color: #8D0000;
+	margin-left: 287px;
+}
+#graph{
+	float: left;
+	border: 2px inset silver;
+	height: 400px;
+	width: 400px;
+	
+	
+}
+
+#tables{
+	float: right;
+	display: block;
+	border: 2px inset silver;
+	min-height: 100px; 
+	min-width: 50px; 
+	
+}
+/* #tables.#tabl.table{ */
+	/* float: right; */
+	
+	/* /* display:inline; */ */
+	/* /* height: 600px; */ */
+	/* /* width: 400px; */ */
+	
+/* } */
+
+
